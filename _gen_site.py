@@ -154,9 +154,9 @@ def section_head(kicker, title, intro="", center=False, light=False):
 def build_index():
     hero = f'''<section class="hero" data-hero-slideshow>
 <div class="hero__slides">
-<div class="hero__slide is-active"><img src="{IMG}treatment-room-services.jpg" alt="Treatment room at Total Aesthetics"></div>
+<div class="hero__slide is-active"><img src="{IMG}treatment-room-blue.jpg" alt="Treatment room at Total Aesthetics"></div>
+<div class="hero__slide"><img src="{IMG}treatment-room-services.jpg" alt="Treatment room at Total Aesthetics"></div>
 <div class="hero__slide"><img src="{IMG}entrance.jpg" alt="Total Aesthetics reception, Palam"></div>
-<div class="hero__slide"><img src="{IMG}treatment-room-blue.jpg" alt="Treatment room at Total Aesthetics"></div>
 <div class="hero__slide"><img src="{IMG}consultation.jpg" alt="Consultation room at Total Aesthetics"></div>
 </div>
 <div class="hero__scrim"></div>
