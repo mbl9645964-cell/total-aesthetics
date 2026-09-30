@@ -154,8 +154,9 @@ def section_head(kicker, title, intro="", center=False, light=False):
 def build_index():
     hero = f'''<section class="hero" data-hero-slideshow>
 <div class="hero__slides">
-<div class="hero__slide is-active"><img src="{IMG}entrance.jpg" alt="Total Aesthetics reception, Palam"></div>
-<div class="hero__slide"><img src="{IMG}treatment-room.jpg" alt="Treatment room at Total Aesthetics"></div>
+<div class="hero__slide is-active"><img src="{IMG}treatment-room-services.jpg" alt="Treatment room at Total Aesthetics"></div>
+<div class="hero__slide"><img src="{IMG}entrance.jpg" alt="Total Aesthetics reception, Palam"></div>
+<div class="hero__slide"><img src="{IMG}treatment-room-blue.jpg" alt="Treatment room at Total Aesthetics"></div>
 <div class="hero__slide"><img src="{IMG}consultation.jpg" alt="Consultation room at Total Aesthetics"></div>
 </div>
 <div class="hero__scrim"></div>
@@ -424,8 +425,10 @@ def build_clinic():
     gallery = f'''<section class="section bg-card"><div class="wrap">
 <div class="gallery" data-reveal>
 <figure class="frame g1"><img src="{IMG}entrance.jpg" alt="Reception"><span class="frame__tag">Reception</span></figure>
-<figure class="frame g2"><img src="{IMG}treatment-room.jpg" alt="Treatment room"><span class="frame__tag">Treatment room</span></figure>
-<figure class="frame g3"><img src="{IMG}consultation.jpg" alt="Consultation room"><span class="frame__tag">Consultation room</span></figure>
+<figure class="frame g2"><img src="{IMG}treatment-room-services.jpg" alt="Treatment room"><span class="frame__tag">Treatment room</span></figure>
+<figure class="frame g4"><img src="{IMG}consultation.jpg" alt="Consultation room"><span class="frame__tag">Consultation room</span></figure>
+<figure class="frame g4"><img src="{IMG}treatment-room-blue.jpg" alt="Treatment room"><span class="frame__tag">Treatment room</span></figure>
+<figure class="frame g5"><img src="{IMG}treatment-room-blue-2.jpg" alt="Treatment room"><span class="frame__tag">Treatment room</span></figure>
 </div>
 </div></section>'''
 
