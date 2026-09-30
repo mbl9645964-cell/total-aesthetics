@@ -279,12 +279,24 @@ def build_index():
 </div>
 </div></section>'''
 
+    clinic_teaser = f'''<section class="section bg-card"><div class="wrap">
+<div style="display:flex;align-items:flex-end;justify-content:space-between;gap:2rem;flex-wrap:wrap;margin-bottom:clamp(1.6rem,3vw,2.2rem)" data-reveal>
+<div><span class="eyebrow">Inside the clinic</span><h2 class="display-2">A calm space, designed for ease.</h2></div>
+<a class="text-link" href="clinic.html">Take a look inside{I_ARROW}</a>
+</div>
+<div class="gallery" data-reveal style="grid-auto-rows:100px">
+<figure class="frame g2"><img src="{IMG}entrance.jpg" alt="Reception"></figure>
+<figure class="frame g3"><img src="{IMG}treatment-room.jpg" alt="Treatment room"></figure>
+<figure class="frame g3"><img src="{IMG}consultation.jpg" alt="Consultation room"></figure>
+</div>
+</div></section>'''
+
     cta = f'''<section class="ctaband"><div class="wrap ctaband__row" data-reveal>
 <div><span class="eyebrow eyebrow--light">Book your visit</span><h2>Ready when you are.</h2><p>Message us on WhatsApp or call the clinic — new patients are always welcome.</p></div>
 <div class="ctaband__btns"><a class="btn btn--cream" href="{WA_BOOK}" target="_blank" rel="noopener">Book an Appointment</a><a class="text-link text-link--light" href="{WA_CHAT}" target="_blank" rel="noopener">Chat with us{I_ARROW}</a></div>
 </div></section>'''
 
-    body = hero + factstrip + intro + services_teaser + confidence + wellness + process + faq + team_teaser + reviews + cta
+    body = hero + factstrip + intro + services_teaser + confidence + wellness + process + faq + team_teaser + reviews + clinic_teaser + cta
     return page(
         "Cosmetic &amp; Dental Clinic in Palam, New Delhi",
         "Total Aesthetics — a boutique cosmetic and dental clinic in Palam, New Delhi, bringing smile and skin care together.",
